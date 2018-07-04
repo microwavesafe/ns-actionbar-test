@@ -1,0 +1,20 @@
+{
+  "name": "actionbar-test",
+  "description": "A native application built with NativeScript-Vue",
+  "license": "MIT",
+  "readme": "actionbar-test",
+  "nativescript": {
+    "id": "org.test.actionbar"
+  },
+  "dependencies": {
+    "nativescript-theme-core": "^1.0.4",
+    "nativescript-vue": "^2.0.0-alpha.0",
+    "tns-core-modules": "~4.1.0"
+  },
+  "devDependencies": {
+    "babel-traverse": "6.26.0",
+    "babel-types": "6.26.0",
+    "babylon": "6.18.0",
+    "lazy": "1.0.11"
+  }
+}

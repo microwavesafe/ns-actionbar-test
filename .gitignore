@@ -1,0 +1,11 @@
+# JetBrains project files
+.idea
+
+# NPM
+node_modules
+
+# NativeScript application
+/dist
+
+template/node_modules
+template/platforms
