@@ -13,7 +13,6 @@
 </template>
 
 <script>
-  import NotHome from './NotHome'
   import Home from './Home'
   export default {
     methods: {
