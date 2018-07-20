@@ -1,13 +1,14 @@
 import Vue from 'nativescript-vue';
-
 import Home from './components/Home';
-
-
 import './styles.scss';
 
-// Uncommment the following to see NativeScript-Vue output logs
-//Vue.config.silent = false;
+// Adding the frame inside the first component causes the problem
+new Vue({
+render: h => h(Home),
+}).$start();
 
+/*
+// Adding the frame here, solves the problem
 new Vue({
   components: {
     Home
@@ -22,3 +23,4 @@ new Vue({
     return vm.$el.nativeView
   }
 });
+*/
