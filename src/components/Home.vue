@@ -1,9 +1,5 @@
 <template>
-  <Page class="page">
-    <ActionBar class="action-bar" title="Home">
-      <ActionItem text="Action"></ActionItem>
-    </ActionBar>
-
+  <Page class="page" actionBarHidden="true">
     <StackLayout class="hello-world">
       <Label class="body" textWrap=true text="This is a home screen, tap the button to go to the next screen"/>
 
